@@ -239,7 +239,6 @@ img {
 
 footer{
     width: 100%;
-    /* height: ; */
     display:flex ;
     background-color: #121113;
 }
@@ -248,7 +247,6 @@ footer{
     width: 50%;
     display: flex;
     gap: 20px;
-    /* text-align: center; */
 }
 
 .footer-container-content{
@@ -262,6 +260,34 @@ footer{
     flex-direction:row-reverse;
     
 }
+
+.footer-container-img :hover {
+	-webkit-animation: rotate-center 0.8s ease-in-out both;
+	        animation: rotate-center 0.8s ease-in-out both;
+}
+
+
+ @-webkit-keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  @keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  
 
 
 /* hide --------------------------------- */
