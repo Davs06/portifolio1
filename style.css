@@ -29,15 +29,15 @@ nav {
     width: 50%;
 }
 
-a {
+li > a {
     text-decoration: none;
     display: block;
-    color: #121113;
+    color: #fff;
     font-size: 17.2061px;
     transition: ease-in-out 0.7s;
 }
 
-a:hover {
+li > a:hover {
     color: rgb(43, 122, 136);
     transform: scale(1.5);
 }
@@ -49,8 +49,8 @@ img {
 
 .logo {
     margin: 5px;
-    width: 150px;
-    height: 100px;
+    width: 100px;
+    height: 50px;
     border-radius: 10%;
 }
 
@@ -109,6 +109,7 @@ img {
     height: 100vh;
     justify-content: space-between;
     padding: 0 10%;
+    background-color: #121113;
 }
 
 .sobre-mim_img {
@@ -156,7 +157,7 @@ img {
 .projetos-title {
     text-align: center;
     height: 10%;
-    margin-top: 30px;
+    margin-top: 60px;
     font-size: 30px;
 }
 
@@ -166,6 +167,7 @@ img {
     justify-content: space-between;
     padding: 0 10%;
     height: 80%;
+    margin-bottom: 10px;
 
 }
 
@@ -191,12 +193,24 @@ img {
     transform: scale(1.1);
 }
 
+.btn{
+    text-decoration: none;
+    border: 1px solid #6f6f6f;
+    border-radius: 30px;
+    padding: 10px 15px;
+    width: 150px;
+    margin: 10px auto;
+    background-color: #4f4f4f;
+    color: #fff;
+}
+
 /*  habilidades -------------------------------------------------------------- */
 
 .habilidades {
     display: flex;
     height: 100vh;
     flex-direction: row;
+    background-color: #121113;
 }
 
 .habilidades-content {
@@ -241,7 +255,7 @@ img {
 footer {
     width: 100%;
     display: flex;
-    background-color: #121113;
+    background-color: #000;
 }
 
 .footer-container {
