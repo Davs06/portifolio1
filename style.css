@@ -235,6 +235,34 @@ img {
     text-align: center;
 }
 
+/* footer */
+
+footer{
+    width: 100%;
+    /* height: ; */
+    display:flex ;
+    background-color: #121113;
+}
+
+.footer-container{
+    width: 50%;
+    display: flex;
+    gap: 20px;
+    /* text-align: center; */
+}
+
+.footer-container-content{
+    margin: 5% 10px;
+}
+
+.footer-container-img{
+    width: 40px;
+    height: 40px;
+    margin: 5% 0;
+    flex-direction:row-reverse;
+    
+}
+
 
 /* hide --------------------------------- */
 
