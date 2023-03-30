@@ -12,9 +12,6 @@ body {
 
 }
 
-.border {
-    border: 1px solid red;
-}
 
 /* criando barra de navegação */
 ul {
@@ -48,10 +45,10 @@ img {
 }
 
 .logo {
-    margin: 5px;
-    width: 100px;
-    height: 50px;
-    border-radius: 10%;
+    /* margin: 5px; */
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
 }
 
 .barra {
