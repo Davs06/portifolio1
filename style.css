@@ -45,10 +45,10 @@ img {
 }
 
 .logo {
-    /* margin: 5px; */
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
+    padding:10px 0;
+    width: 50%;
+    height: 50%;
+    /* border-radius: 50%; */
 }
 
 .barra {
@@ -92,7 +92,7 @@ img {
 }
 
 .inicio-image {
-    border-radius: 50%;
+    /* border-radius: 50%; */
     width: 30%;
 }
 
